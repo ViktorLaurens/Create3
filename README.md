@@ -1,7 +1,8 @@
 # iRobot Create-3 Path Planning Project
+This project involves path planning for the iRobot Create-3 robot in a simulated environment.
 
 ## Overview
-This project involves path planning for the iRobot Create-3 robot in a simulated environment. The goal is to program the robot to:
+ The goal is to program the robot to:
 
 1. **Undock** from its docking station using the provided undocking service.
 2. **Move from Point A to Point B**: 
@@ -20,4 +21,20 @@ This project involves path planning for the iRobot Create-3 robot in a simulated
    ```bash
    ros2 launch irobot_create_gazebo_bringup create3_gazebo.launch.py
    ```
+   
+## Project Structure
+- **src/**: Contains the ROS2 package with the code for undocking, path planning, and docking.
+- **config/**: Contains the YAML file specifying the target end position for the robot.
+- **video/**: A screen recording of the robot performing the task in simulation.
+- **README.md**: This overview and instructions for setting up and running the project.
+
+## Running the Code
+1. Launch the simulation in Gazebo.
+2. Run the main script to start the undocking, path planning, and optional docking actions.
+
+## Results
+- A video recording of the Create-3 robot undocking, following a creative path to the target, and optionally docking back at the station.
+
+## Extra Notes
+- The code and video are organized for ease of understanding, with comments in the code explaining each step of the process.
 
