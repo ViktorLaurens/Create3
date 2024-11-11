@@ -1,0 +1,31 @@
+[0.186s] Invoking command in '/home/viktordg/Create3/build/irobot_create_toolbox': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/viktordg/Create3/build/irobot_create_toolbox -- -j8 -l8
+[0.672s] [100%] Built target irobot_create_toolbox
+[0.865s] Invoked command in '/home/viktordg/Create3/build/irobot_create_toolbox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/viktordg/Create3/build/irobot_create_toolbox -- -j8 -l8
+[1.126s] Invoking command in '/home/viktordg/Create3/build/irobot_create_toolbox': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/viktordg/Create3/build/irobot_create_toolbox
+[1.194s] -- Install configuration: ""
+[1.198s] -- Execute custom install script
+[1.201s] -- Up-to-date symlink: /home/viktordg/Create3/install/irobot_create_toolbox/lib/libirobot_create_toolbox.so
+[1.208s] -- Up-to-date symlink: /home/viktordg/Create3/install/irobot_create_toolbox/include/irobot_create_toolbox/math.hpp
+[1.215s] -- Up-to-date symlink: /home/viktordg/Create3/install/irobot_create_toolbox/include/irobot_create_toolbox/polar_coordinates.hpp
+[1.217s] -- Up-to-date symlink: /home/viktordg/Create3/install/irobot_create_toolbox/include/irobot_create_toolbox/sensors/bumpers.hpp
+[1.218s] -- Up-to-date symlink: /home/viktordg/Create3/install/irobot_create_toolbox/share/irobot_create_toolbox/environment/library_path.sh
+[1.218s] -- Up-to-date symlink: /home/viktordg/Create3/install/irobot_create_toolbox/share/irobot_create_toolbox/environment/library_path.dsv
+[1.232s] -- Up-to-date symlink: /home/viktordg/Create3/install/irobot_create_toolbox/share/ament_index/resource_index/package_run_dependencies/irobot_create_toolbox
+[1.233s] -- Up-to-date symlink: /home/viktordg/Create3/install/irobot_create_toolbox/share/ament_index/resource_index/parent_prefix_path/irobot_create_toolbox
+[1.233s] -- Up-to-date symlink: /home/viktordg/Create3/install/irobot_create_toolbox/share/irobot_create_toolbox/environment/ament_prefix_path.sh
+[1.233s] -- Up-to-date symlink: /home/viktordg/Create3/install/irobot_create_toolbox/share/irobot_create_toolbox/environment/ament_prefix_path.dsv
+[1.234s] -- Up-to-date symlink: /home/viktordg/Create3/install/irobot_create_toolbox/share/irobot_create_toolbox/environment/path.sh
+[1.235s] -- Up-to-date symlink: /home/viktordg/Create3/install/irobot_create_toolbox/share/irobot_create_toolbox/environment/path.dsv
+[1.238s] -- Up-to-date symlink: /home/viktordg/Create3/install/irobot_create_toolbox/share/irobot_create_toolbox/local_setup.bash
+[1.239s] -- Up-to-date symlink: /home/viktordg/Create3/install/irobot_create_toolbox/share/irobot_create_toolbox/local_setup.sh
+[1.253s] -- Up-to-date symlink: /home/viktordg/Create3/install/irobot_create_toolbox/share/irobot_create_toolbox/local_setup.zsh
+[1.254s] -- Up-to-date symlink: /home/viktordg/Create3/install/irobot_create_toolbox/share/irobot_create_toolbox/local_setup.dsv
+[1.255s] -- Symlinking: /home/viktordg/Create3/install/irobot_create_toolbox/share/irobot_create_toolbox/package.dsv
+[1.295s] -- Up-to-date symlink: /home/viktordg/Create3/install/irobot_create_toolbox/share/ament_index/resource_index/packages/irobot_create_toolbox
+[1.296s] -- Up-to-date symlink: /home/viktordg/Create3/install/irobot_create_toolbox/share/irobot_create_toolbox/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.297s] -- Up-to-date symlink: /home/viktordg/Create3/install/irobot_create_toolbox/share/irobot_create_toolbox/cmake/ament_cmake_export_libraries-extras.cmake
+[1.298s] -- Up-to-date symlink: /home/viktordg/Create3/install/irobot_create_toolbox/share/irobot_create_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.298s] -- Up-to-date symlink: /home/viktordg/Create3/install/irobot_create_toolbox/share/irobot_create_toolbox/cmake/irobot_create_toolboxConfig.cmake
+[1.302s] -- Up-to-date symlink: /home/viktordg/Create3/install/irobot_create_toolbox/share/irobot_create_toolbox/cmake/irobot_create_toolboxConfig-version.cmake
+[1.310s] -- Up-to-date symlink: /home/viktordg/Create3/install/irobot_create_toolbox/share/irobot_create_toolbox/package.xml
+[1.315s] Invoked command in '/home/viktordg/Create3/build/irobot_create_toolbox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/viktordg/Create3/build/irobot_create_toolbox

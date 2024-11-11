@@ -1,0 +1,12 @@
+gmake[2]: *** [CMakeFiles/wheel_status_publisher_lib.dir/build.make:76: CMakeFiles/wheel_status_publisher_lib.dir/src/wheels_publisher.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/ir_intensity_publisher_lib.dir/build.make:76: CMakeFiles/ir_intensity_publisher_lib.dir/src/ir_intensity_vector_publisher.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/motion_control_lib.dir/build.make:76: CMakeFiles/motion_control_lib.dir/src/motion_control_node.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/motion_control_lib.dir/build.make:90: CMakeFiles/motion_control_lib.dir/src/motion_control/docking_behavior.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/robot_state_lib.dir/build.make:76: CMakeFiles/robot_state_lib.dir/src/robot_state.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:219: CMakeFiles/ir_intensity_publisher_lib.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:323: CMakeFiles/wheel_status_publisher_lib.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/hazard_publisher_lib.dir/build.make:76: CMakeFiles/hazard_publisher_lib.dir/src/hazards_vector_publisher.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:271: CMakeFiles/motion_control_lib.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:375: CMakeFiles/robot_state_lib.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/hazard_publisher_lib.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

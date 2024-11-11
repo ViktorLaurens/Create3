@@ -1,0 +1,6 @@
+Invoking command in '/home/viktordg/Create3/build/irobot_create_toolbox': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/viktordg/Create3/src/create3_sim/irobot_create_common/irobot_create_toolbox -DCMAKE_INSTALL_PREFIX=/home/viktordg/Create3/install/irobot_create_toolbox
+Invoked command in '/home/viktordg/Create3/build/irobot_create_toolbox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/viktordg/Create3/src/create3_sim/irobot_create_common/irobot_create_toolbox -DCMAKE_INSTALL_PREFIX=/home/viktordg/Create3/install/irobot_create_toolbox
+Invoking command in '/home/viktordg/Create3/build/irobot_create_toolbox': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/viktordg/Create3/build/irobot_create_toolbox -- -j8 -l8
+Invoked command in '/home/viktordg/Create3/build/irobot_create_toolbox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/viktordg/Create3/build/irobot_create_toolbox -- -j8 -l8
+Invoking command in '/home/viktordg/Create3/build/irobot_create_toolbox': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/viktordg/Create3/build/irobot_create_toolbox
+Invoked command in '/home/viktordg/Create3/build/irobot_create_toolbox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/viktordg/Create3/build/irobot_create_toolbox

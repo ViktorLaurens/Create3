@@ -1,0 +1,49 @@
+[0.025s] Invoking command in '/home/viktordg/Create3/build/irobot_create_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/viktordg/Create3/src/create3_sim/irobot_create_common/irobot_create_control -DCMAKE_INSTALL_PREFIX=/home/viktordg/Create3/install/irobot_create_control
+[0.334s] -- The C compiler identification is GNU 11.4.0
+[0.952s] -- The CXX compiler identification is GNU 11.4.0
+[1.593s] -- Detecting C compiler ABI info
+[1.837s] -- Detecting C compiler ABI info - done
+[1.850s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.850s] -- Detecting C compile features
+[1.852s] -- Detecting C compile features - done
+[1.857s] -- Detecting CXX compiler ABI info
+[2.059s] -- Detecting CXX compiler ABI info - done
+[2.080s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.081s] -- Detecting CXX compile features
+[2.081s] -- Detecting CXX compile features - done
+[2.109s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.384s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.527s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.637s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.639s] -- Added test 'lint_cmake' to check CMake code style
+[2.640s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.641s] -- Added test 'xmllint' to check XML markup files
+[2.643s] -- Configuring done
+[2.648s] -- Generating done
+[2.649s] -- Build files have been written to: /home/viktordg/Create3/build/irobot_create_control
+[2.654s] Invoked command in '/home/viktordg/Create3/build/irobot_create_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/viktordg/Create3/src/create3_sim/irobot_create_common/irobot_create_control -DCMAKE_INSTALL_PREFIX=/home/viktordg/Create3/install/irobot_create_control
+[2.656s] Invoking command in '/home/viktordg/Create3/build/irobot_create_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/viktordg/Create3/build/irobot_create_control -- -j8 -l8
+[2.700s] Invoked command in '/home/viktordg/Create3/build/irobot_create_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/viktordg/Create3/build/irobot_create_control -- -j8 -l8
+[2.755s] Invoking command in '/home/viktordg/Create3/build/irobot_create_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/viktordg/Create3/build/irobot_create_control
+[2.766s] -- Install configuration: ""
+[2.766s] -- Installing: /home/viktordg/Create3/install/irobot_create_control/share/irobot_create_control//launch
+[2.768s] -- Installing: /home/viktordg/Create3/install/irobot_create_control/share/irobot_create_control//launch/include
+[2.768s] -- Installing: /home/viktordg/Create3/install/irobot_create_control/share/irobot_create_control//launch/include/control.py
+[2.768s] -- Installing: /home/viktordg/Create3/install/irobot_create_control/share/irobot_create_control//config
+[2.769s] -- Installing: /home/viktordg/Create3/install/irobot_create_control/share/irobot_create_control//config/control.yaml
+[2.770s] -- Installing: /home/viktordg/Create3/install/irobot_create_control/share/ament_index/resource_index/package_run_dependencies/irobot_create_control
+[2.771s] -- Installing: /home/viktordg/Create3/install/irobot_create_control/share/ament_index/resource_index/parent_prefix_path/irobot_create_control
+[2.771s] -- Installing: /home/viktordg/Create3/install/irobot_create_control/share/irobot_create_control/environment/ament_prefix_path.sh
+[2.771s] -- Installing: /home/viktordg/Create3/install/irobot_create_control/share/irobot_create_control/environment/ament_prefix_path.dsv
+[2.772s] -- Installing: /home/viktordg/Create3/install/irobot_create_control/share/irobot_create_control/environment/path.sh
+[2.772s] -- Installing: /home/viktordg/Create3/install/irobot_create_control/share/irobot_create_control/environment/path.dsv
+[2.773s] -- Installing: /home/viktordg/Create3/install/irobot_create_control/share/irobot_create_control/local_setup.bash
+[2.773s] -- Installing: /home/viktordg/Create3/install/irobot_create_control/share/irobot_create_control/local_setup.sh
+[2.773s] -- Installing: /home/viktordg/Create3/install/irobot_create_control/share/irobot_create_control/local_setup.zsh
+[2.773s] -- Installing: /home/viktordg/Create3/install/irobot_create_control/share/irobot_create_control/local_setup.dsv
+[2.773s] -- Installing: /home/viktordg/Create3/install/irobot_create_control/share/irobot_create_control/package.dsv
+[2.774s] -- Installing: /home/viktordg/Create3/install/irobot_create_control/share/ament_index/resource_index/packages/irobot_create_control
+[2.775s] -- Installing: /home/viktordg/Create3/install/irobot_create_control/share/irobot_create_control/cmake/irobot_create_controlConfig.cmake
+[2.775s] -- Installing: /home/viktordg/Create3/install/irobot_create_control/share/irobot_create_control/cmake/irobot_create_controlConfig-version.cmake
+[2.775s] -- Installing: /home/viktordg/Create3/install/irobot_create_control/share/irobot_create_control/package.xml
+[2.778s] Invoked command in '/home/viktordg/Create3/build/irobot_create_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/viktordg/Create3/build/irobot_create_control

@@ -1,0 +1,136 @@
+[0.637s] Invoking command in '/home/viktordg/Create3/build/irobot_create_gazebo_bringup': AMENT_PREFIX_PATH=/home/viktordg/Create3/install/irobot_create_common_bringup:/home/viktordg/Create3/install/irobot_create_nodes:/home/viktordg/Create3/install/irobot_create_gazebo_plugins:/home/viktordg/Create3/install/irobot_create_toolbox:/home/viktordg/Create3/install/irobot_create_description:/home/viktordg/Create3/install/irobot_create_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/viktordg/Create3/install/irobot_create_common_bringup:/home/viktordg/Create3/install/irobot_create_nodes:/home/viktordg/Create3/install/irobot_create_gazebo_plugins:/home/viktordg/Create3/install/irobot_create_toolbox:/home/viktordg/Create3/install/irobot_create_description:/home/viktordg/Create3/install/irobot_create_control:/opt/ros/humble LD_LIBRARY_PATH=/home/viktordg/Create3/install/irobot_create_nodes/lib:/home/viktordg/Create3/install/irobot_create_gazebo_plugins/lib:/home/viktordg/Create3/install/irobot_create_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/viktordg/Create3/install/irobot_create_common_bringup/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/viktordg/Create3/src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/viktordg/Create3/install/irobot_create_gazebo_bringup
+[0.900s] -- The C compiler identification is GNU 11.4.0
+[2.038s] -- The CXX compiler identification is GNU 11.4.0
+[2.731s] -- Detecting C compiler ABI info
+[2.977s] -- Detecting C compiler ABI info - done
+[2.988s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.988s] -- Detecting C compile features
+[2.989s] -- Detecting C compile features - done
+[2.993s] -- Detecting CXX compiler ABI info
+[3.273s] -- Detecting CXX compiler ABI info - done
+[3.285s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.285s] -- Detecting CXX compile features
+[3.286s] -- Detecting CXX compile features - done
+[3.289s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.502s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.588s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.957s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.963s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.980s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.003s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.039s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.169s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.178s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.977s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[10.148s] -- Found FastRTPS: /opt/ros/humble/include  
+[14.936s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[14.961s] -- Looking for pthread.h
+[15.207s] -- Looking for pthread.h - found
+[15.207s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[15.446s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[15.447s] -- Found Threads: TRUE  
+[15.575s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[15.577s] -- Checking for module 'bullet>=2.82'
+[15.592s] --   Found bullet, version 3.05
+[15.816s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[15.876s] -- Found assimp: /usr/include (found version "5.2.0") 
+[15.925s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[15.976s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[16.827s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[16.842s] -- Looking for ignition-math6 -- found version 6.15.1
+[16.865s] -- Searching for dependencies of ignition-math6
+[16.870s] -- Looking for OGRE...
+[16.871s] -- OGRE_PREFIX_WATCH changed.
+[16.879s] -- Checking for module 'OGRE'
+[16.895s] --   Found OGRE, version 1.9.0
+[16.937s] -- Found Ogre Ghadamon (1.9.0)
+[17.694s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[17.706s] -- Looking for OGRE_Paging...
+[18.361s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[18.361s] -- Looking for OGRE_Terrain...
+[18.989s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[18.989s] -- Looking for OGRE_Property...
+[19.586s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[19.586s] -- Looking for OGRE_RTShaderSystem...
+[20.351s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[20.351s] -- Looking for OGRE_Volume...
+[21.118s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[21.118s] -- Looking for OGRE_Overlay...
+[21.795s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[61.147s] -- Looking for ignition-math6 -- found version 6.15.1
+[61.154s] -- Looking for ignition-transport8 -- found version 8.2.1
+[61.155s] -- Searching for dependencies of ignition-transport8
+[62.999s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[65.134s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[65.139s] -- Checking for module 'libzmq >= 4'
+[65.173s] --   Found libzmq , version 4.3.4
+[65.212s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[65.287s] -- Checking for module 'uuid'
+[65.299s] --   Found uuid, version 2.37.2
+[65.327s] -- Found UUID: TRUE  
+[65.333s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[65.334s] -- Searching for dependencies of ignition-msgs5
+[68.182s] -- Looking for ignition-math6 -- found version 6.15.1
+[68.191s] -- Checking for module 'tinyxml2'
+[68.210s] --   Found tinyxml2, version 9.0.0
+[68.254s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[68.260s] -- Looking for ignition-common3 -- found version 3.14.0
+[68.261s] -- Searching for dependencies of ignition-common3
+[68.382s] -- Looking for dlfcn.h - found
+[68.502s] -- Looking for libdl - found
+[68.504s] -- Found DL: TRUE  
+[68.751s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[68.753s] -- Searching for <ignition-common3> component [graphics]
+[68.757s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[68.758s] -- Searching for dependencies of ignition-common3-graphics
+[68.759s] -- Looking for ignition-math6 -- found version 6.15.1
+[68.767s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[68.768s] -- Searching for dependencies of ignition-fuel_tools4
+[71.190s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[71.203s] -- Checking for module 'jsoncpp'
+[71.218s] --   Found jsoncpp, version 1.9.5
+[71.255s] -- Found JSONCPP: TRUE  
+[71.263s] -- Checking for module 'libzip'
+[71.278s] --   Found libzip, version 1.7.3
+[71.319s] -- Found ZIP: TRUE  
+[71.320s] -- Looking for ignition-common3 -- found version 3.14.0
+[71.320s] -- Looking for ignition-math6 -- found version 6.15.1
+[71.321s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[71.330s] -- Gazebo version: 11.10
+[71.331s] -- Checking for module 'tbb'
+[71.346s] --   Found tbb, version 2021.5.0
+[71.382s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[71.506s] -- Added test 'flake8' to check Python code syntax and style conventions
+[71.507s] -- Added test 'lint_cmake' to check CMake code style
+[71.509s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[71.510s] -- Added test 'xmllint' to check XML markup files
+[71.513s] -- Configuring done
+[71.521s] -- Generating done
+[71.524s] -- Build files have been written to: /home/viktordg/Create3/build/irobot_create_gazebo_bringup
+[71.541s] Invoked command in '/home/viktordg/Create3/build/irobot_create_gazebo_bringup' returned '0': AMENT_PREFIX_PATH=/home/viktordg/Create3/install/irobot_create_common_bringup:/home/viktordg/Create3/install/irobot_create_nodes:/home/viktordg/Create3/install/irobot_create_gazebo_plugins:/home/viktordg/Create3/install/irobot_create_toolbox:/home/viktordg/Create3/install/irobot_create_description:/home/viktordg/Create3/install/irobot_create_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/viktordg/Create3/install/irobot_create_common_bringup:/home/viktordg/Create3/install/irobot_create_nodes:/home/viktordg/Create3/install/irobot_create_gazebo_plugins:/home/viktordg/Create3/install/irobot_create_toolbox:/home/viktordg/Create3/install/irobot_create_description:/home/viktordg/Create3/install/irobot_create_control:/opt/ros/humble LD_LIBRARY_PATH=/home/viktordg/Create3/install/irobot_create_nodes/lib:/home/viktordg/Create3/install/irobot_create_gazebo_plugins/lib:/home/viktordg/Create3/install/irobot_create_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/viktordg/Create3/install/irobot_create_common_bringup/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/viktordg/Create3/src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/viktordg/Create3/install/irobot_create_gazebo_bringup
+[71.544s] Invoking command in '/home/viktordg/Create3/build/irobot_create_gazebo_bringup': AMENT_PREFIX_PATH=/home/viktordg/Create3/install/irobot_create_common_bringup:/home/viktordg/Create3/install/irobot_create_nodes:/home/viktordg/Create3/install/irobot_create_gazebo_plugins:/home/viktordg/Create3/install/irobot_create_toolbox:/home/viktordg/Create3/install/irobot_create_description:/home/viktordg/Create3/install/irobot_create_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/viktordg/Create3/install/irobot_create_common_bringup:/home/viktordg/Create3/install/irobot_create_nodes:/home/viktordg/Create3/install/irobot_create_gazebo_plugins:/home/viktordg/Create3/install/irobot_create_toolbox:/home/viktordg/Create3/install/irobot_create_description:/home/viktordg/Create3/install/irobot_create_control:/opt/ros/humble LD_LIBRARY_PATH=/home/viktordg/Create3/install/irobot_create_nodes/lib:/home/viktordg/Create3/install/irobot_create_gazebo_plugins/lib:/home/viktordg/Create3/install/irobot_create_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/viktordg/Create3/install/irobot_create_common_bringup/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/viktordg/Create3/build/irobot_create_gazebo_bringup -- -j8 -l8
+[71.597s] Invoked command in '/home/viktordg/Create3/build/irobot_create_gazebo_bringup' returned '0': AMENT_PREFIX_PATH=/home/viktordg/Create3/install/irobot_create_common_bringup:/home/viktordg/Create3/install/irobot_create_nodes:/home/viktordg/Create3/install/irobot_create_gazebo_plugins:/home/viktordg/Create3/install/irobot_create_toolbox:/home/viktordg/Create3/install/irobot_create_description:/home/viktordg/Create3/install/irobot_create_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/viktordg/Create3/install/irobot_create_common_bringup:/home/viktordg/Create3/install/irobot_create_nodes:/home/viktordg/Create3/install/irobot_create_gazebo_plugins:/home/viktordg/Create3/install/irobot_create_toolbox:/home/viktordg/Create3/install/irobot_create_description:/home/viktordg/Create3/install/irobot_create_control:/opt/ros/humble LD_LIBRARY_PATH=/home/viktordg/Create3/install/irobot_create_nodes/lib:/home/viktordg/Create3/install/irobot_create_gazebo_plugins/lib:/home/viktordg/Create3/install/irobot_create_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/viktordg/Create3/install/irobot_create_common_bringup/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/viktordg/Create3/build/irobot_create_gazebo_bringup -- -j8 -l8
+[71.623s] Invoking command in '/home/viktordg/Create3/build/irobot_create_gazebo_bringup': AMENT_PREFIX_PATH=/home/viktordg/Create3/install/irobot_create_common_bringup:/home/viktordg/Create3/install/irobot_create_nodes:/home/viktordg/Create3/install/irobot_create_gazebo_plugins:/home/viktordg/Create3/install/irobot_create_toolbox:/home/viktordg/Create3/install/irobot_create_description:/home/viktordg/Create3/install/irobot_create_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/viktordg/Create3/install/irobot_create_common_bringup:/home/viktordg/Create3/install/irobot_create_nodes:/home/viktordg/Create3/install/irobot_create_gazebo_plugins:/home/viktordg/Create3/install/irobot_create_toolbox:/home/viktordg/Create3/install/irobot_create_description:/home/viktordg/Create3/install/irobot_create_control:/opt/ros/humble LD_LIBRARY_PATH=/home/viktordg/Create3/install/irobot_create_nodes/lib:/home/viktordg/Create3/install/irobot_create_gazebo_plugins/lib:/home/viktordg/Create3/install/irobot_create_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/viktordg/Create3/install/irobot_create_common_bringup/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/viktordg/Create3/build/irobot_create_gazebo_bringup
+[71.631s] -- Install configuration: ""
+[71.631s] -- Execute custom install script
+[71.632s] -- Symlinking: /home/viktordg/Create3/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/config/gazebo_params.yaml
+[71.643s] -- Symlinking: /home/viktordg/Create3/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/create3_gazebo.launch.py
+[71.653s] -- Symlinking: /home/viktordg/Create3/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/create3_gazebo_aws_small.launch.py
+[71.663s] -- Symlinking: /home/viktordg/Create3/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/create3_spawn.launch.py
+[71.673s] -- Symlinking: /home/viktordg/Create3/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/gazebo.launch.py
+[71.683s] -- Symlinking: /home/viktordg/Create3/install/irobot_create_gazebo_bringup/share/ament_index/resource_index/package_run_dependencies/irobot_create_gazebo_bringup
+[71.693s] -- Symlinking: /home/viktordg/Create3/install/irobot_create_gazebo_bringup/share/ament_index/resource_index/parent_prefix_path/irobot_create_gazebo_bringup
+[71.703s] -- Symlinking: /home/viktordg/Create3/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/environment/ament_prefix_path.sh
+[71.713s] -- Symlinking: /home/viktordg/Create3/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/environment/ament_prefix_path.dsv
+[71.723s] -- Symlinking: /home/viktordg/Create3/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/environment/path.sh
+[71.733s] -- Symlinking: /home/viktordg/Create3/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/environment/path.dsv
+[71.742s] -- Symlinking: /home/viktordg/Create3/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/local_setup.bash
+[71.752s] -- Symlinking: /home/viktordg/Create3/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/local_setup.sh
+[71.762s] -- Symlinking: /home/viktordg/Create3/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/local_setup.zsh
+[71.772s] -- Symlinking: /home/viktordg/Create3/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/local_setup.dsv
+[71.782s] -- Symlinking: /home/viktordg/Create3/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/package.dsv
+[71.792s] -- Symlinking: /home/viktordg/Create3/install/irobot_create_gazebo_bringup/share/ament_index/resource_index/packages/irobot_create_gazebo_bringup
+[71.802s] -- Symlinking: /home/viktordg/Create3/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/cmake/irobot_create_gazebo_bringupConfig.cmake
+[71.814s] -- Symlinking: /home/viktordg/Create3/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/cmake/irobot_create_gazebo_bringupConfig-version.cmake
+[71.824s] -- Symlinking: /home/viktordg/Create3/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/package.xml
+[71.836s] Invoked command in '/home/viktordg/Create3/build/irobot_create_gazebo_bringup' returned '0': AMENT_PREFIX_PATH=/home/viktordg/Create3/install/irobot_create_common_bringup:/home/viktordg/Create3/install/irobot_create_nodes:/home/viktordg/Create3/install/irobot_create_gazebo_plugins:/home/viktordg/Create3/install/irobot_create_toolbox:/home/viktordg/Create3/install/irobot_create_description:/home/viktordg/Create3/install/irobot_create_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/viktordg/Create3/install/irobot_create_common_bringup:/home/viktordg/Create3/install/irobot_create_nodes:/home/viktordg/Create3/install/irobot_create_gazebo_plugins:/home/viktordg/Create3/install/irobot_create_toolbox:/home/viktordg/Create3/install/irobot_create_description:/home/viktordg/Create3/install/irobot_create_control:/opt/ros/humble LD_LIBRARY_PATH=/home/viktordg/Create3/install/irobot_create_nodes/lib:/home/viktordg/Create3/install/irobot_create_gazebo_plugins/lib:/home/viktordg/Create3/install/irobot_create_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/viktordg/Create3/install/irobot_create_common_bringup/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/viktordg/Create3/build/irobot_create_gazebo_bringup
