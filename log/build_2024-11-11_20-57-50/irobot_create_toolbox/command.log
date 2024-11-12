@@ -1,4 +1,0 @@
-Invoking command in '/home/viktordg/Create3/build/irobot_create_toolbox': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/viktordg/Create3/build/irobot_create_toolbox -- -j8 -l8
-Invoked command in '/home/viktordg/Create3/build/irobot_create_toolbox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/viktordg/Create3/build/irobot_create_toolbox -- -j8 -l8
-Invoking command in '/home/viktordg/Create3/build/irobot_create_toolbox': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/viktordg/Create3/build/irobot_create_toolbox
-Invoked command in '/home/viktordg/Create3/build/irobot_create_toolbox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/viktordg/Create3/build/irobot_create_toolbox

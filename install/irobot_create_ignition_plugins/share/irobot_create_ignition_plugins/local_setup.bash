@@ -1,1 +1,0 @@
-/home/viktordg/Create3/build/irobot_create_ignition_plugins/ament_cmake_environment_hooks/local_setup.bash
