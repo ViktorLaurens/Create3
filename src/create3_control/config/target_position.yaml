@@ -1,0 +1,4 @@
+move_robot:
+  ros__parameters:
+    target_x: 1.0
+    target_y: 2.0
