@@ -24,18 +24,22 @@ This project involves path planning for the iRobot Create-3 robot in a simulated
 
 ## Project Structure
     Create3/
-    ├── build/                  # Added to .gitignore, so not tracked by GitHub.
-    ├── install/                # Added to .gitignore, so not tracked by GitHub.
-    ├── log/                    # Added to .gitignore, so not tracked by GitHub.
-    ├── src/                    # The source folder containing the packages. 
-    ├── video/                  # The folder supposed to contain the video.
+    ├── build/                      # Added to .gitignore, so not tracked by GitHub.
+    ├── install/                    # Added to .gitignore, so not tracked by GitHub.
+    ├── log/                        # Added to .gitignore, so not tracked by GitHub.
+    ├── src/                        # The source folder containing the packages.
+    │   ├── create3_sim/            # The package for the Create-3 simulation.
+    │   └── create3_control/        # The package for controlling the Create-3.
+    │       ├── config/             # Contains the YAML file specifying the target end position for the robot.
+    │       ├── create3_control/    # The folder storing the python script for moving the iRobot. 
+    │       ├── launch/             # The folder containing the launch files for launching the node for moving the robot. 
+    │       ├── package.xml
+    │       ├── setup.cfg
+    │       └── setup.py
+    ├── video/                      # The folder supposed to contain the video.
     ├── .gitignore
-    ├── LICENSE
-    └── README.md
-- **src/**: Contains the ROS2 package with the code for undocking, path planning, and docking, as well as the create3_sim package.
-- **config/**: Contains the YAML file specifying the target end position for the robot.
-- **video/**: A screen recording of the robot performing the task in simulation.
-- **README.md**: This overview and instructions for setting up and running the project.
+    ├── README.md
+    └── test.py                     # Simple Python test file.
 
 ## Running the Code
 1. **Launch the simulation in Gazebo** using:
