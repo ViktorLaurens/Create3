@@ -23,6 +23,15 @@ This project involves path planning for the iRobot Create-3 robot in a simulated
    ```
 
 ## Project Structure
+    Create3/
+    ├── build/                  # Added to .gitignore, so not tracked by GitHub.
+    ├── install/                # Added to .gitignore, so not tracked by GitHub.
+    ├── log/                    # Added to .gitignore, so not tracked by GitHub.
+    ├── src/                    # The source folder containing the packages. 
+    ├── video/                  # The folder supposed to contain the video.
+    ├── .gitignore
+    ├── LICENSE
+    └── README.md
 - **src/**: Contains the ROS2 package with the code for undocking, path planning, and docking, as well as the create3_sim package.
 - **config/**: Contains the YAML file specifying the target end position for the robot.
 - **video/**: A screen recording of the robot performing the task in simulation.
