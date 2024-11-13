@@ -21,20 +21,29 @@ This project involves path planning for the iRobot Create-3 robot in a simulated
    ```bash
    ros2 launch irobot_create_gazebo_bringup create3_gazebo.launch.py
    ```
-   
+
 ## Project Structure
-- **src/**: Contains the ROS2 package with the code for undocking, path planning, and docking.
+- **src/**: Contains the ROS2 package with the code for undocking, path planning, and docking, as well as the create3_sim package.
 - **config/**: Contains the YAML file specifying the target end position for the robot.
 - **video/**: A screen recording of the robot performing the task in simulation.
 - **README.md**: This overview and instructions for setting up and running the project.
 
 ## Running the Code
-1. Launch the simulation in Gazebo.
-2. Run the main script to start the undocking, path planning, and optional docking actions.
+1. Launch the simulation in Gazebo using: 
+```bash ros2 launch irobot_create_gazebo_bringup create3_gazebo.launch.py```
+2. In a different terminal, use the already provided service for undocking the iRobot Create-3: 
+```bash ros2 action send_goal /undock irobot_create_msgs/action/Undock "{}"```
+The robot will move away from the docking station and turn 180°. 
+3. In general you can move the robot by publishing geometry_msgs/msg/Twist messages to the /cmd_vel topic (in a different terminal) as follows:
+```ros2 topic pub -r 20 /cmd_vel geometry_msgs/msg/Twist "{linear: {x: 0.2, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 0.0}}"```
+However to automate the robot to go towards a chosen target position and using something else than a straight line or circular arch to reach this target position, a node was developed in the create3_control package. Running the node can be achieved with the command:
+```bash ros2 launch create3_control move_robot.launch.py```
+The purpose of this package is to move the robot according to a certain trajectory to the target position, calculate the commands to publish to the /cmd_vel topic as Twist messages to achieve this. Afterwards the robot moves back to its start position in order to dock. However debugging of this node and finishing its development was not possible due to hardware difficulties which did not allow the simulation to run properly. 
+4. Docking of the robot is achieved with the following command:
+```ros2 action send_goal /dock irobot_create_msgs/action/Dock "{}""```
+This command will only be accepted when the docking station is visible for the robot. Therefore the robot has to oriented correctly to face the docking station using the previous node to enable docking.
 
 ## Results
-- A video recording of the Create-3 robot undocking, following a creative path to the target, and optionally docking back at the station.
+- A video recording of the Create-3 robot undocking, following a creative path to the target, and docking back at the station was not achieved as the hardware did not allow the simulation to run properly.
 
-## Extra Notes
-- The code and video are organized for ease of understanding, with comments in the code explaining each step of the process.
 
