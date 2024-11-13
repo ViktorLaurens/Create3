@@ -28,15 +28,6 @@ This project involves path planning for the iRobot Create-3 robot in a simulated
 - **video/**: A screen recording of the robot performing the task in simulation.
 - **README.md**: This overview and instructions for setting up and running the project.
 
-## Installation
-1. **Navigate to the desired directory on the local device.**
-
-2. **Clone the repository**:
-    ```bash
-    git clone https://github.com/ViktorLaurens/MMMP.git
-    cd MMMP
-    ```
-
 ## Running the Code
 1. **Launch the simulation in Gazebo** using:
     ```bash
