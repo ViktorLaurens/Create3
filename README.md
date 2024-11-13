@@ -33,11 +33,13 @@ This project involves path planning for the iRobot Create-3 robot in a simulated
     ```bash
     ros2 launch irobot_create_gazebo_bringup create3_gazebo.launch.py
     ```
+    
 2. In a different terminal,**use the already provided service for undocking** the iRobot Create-3:
     ```bash
     ros2 action send_goal /undock irobot_create_msgs/action/Undock "{}"
     ```
-    The robot will move away from the docking station and turn 180°. 
+    The robot will move away from the docking station and turn 180°.
+   
 3. In general you can **move the robot** by publishing geometry_msgs/msg/Twist messages to the /cmd_vel topic (in a different terminal) as follows:
     ```bash
     ros2 topic pub -r 20 /cmd_vel geometry_msgs/msg/Twist "{linear: {x: 0.2, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 0.0}}"
@@ -46,7 +48,8 @@ This project involves path planning for the iRobot Create-3 robot in a simulated
     ```bash
     ros2 launch create3_control move_robot.launch.py
     ```
-    The purpose of this package is to move the robot according to a certain trajectory to the target position, calculate the commands to publish to the /cmd_vel topic as Twist messages to achieve this. Afterwards     the robot moves back to its start position in order to dock. However debugging of this node and finishing its development was not possible due to hardware difficulties which did not allow the simulation to        run properly. 
+    The purpose of this package is to move the robot according to a certain trajectory to the target position, calculate the commands to publish to the /cmd_vel topic as Twist messages to achieve this. Afterwards     the robot moves back to its start position in order to dock. However debugging of this node and finishing its development was not possible due to hardware difficulties which did not allow the simulation to        run properly.
+   
 4. **Docking of the robot** is achieved with the following command:
     ```bash
     ros2 action send_goal /dock irobot_create_msgs/action/Dock "{}"
@@ -54,6 +57,6 @@ This project involves path planning for the iRobot Create-3 robot in a simulated
     This command will only be accepted when the docking station is visible for the robot. Therefore the robot has to oriented correctly to face the docking station using the previous node to enable docking.
 
 ## Results
-- A video recording of the Create-3 robot undocking, following a creative path to the target, and docking back at the station was not achieved as the hardware did not allow the simulation to run properly.
+A video recording of the Create-3 robot undocking, following a creative path to the target, and docking back at the station was not achieved as the hardware did not allow the simulation to run properly.
 
 
